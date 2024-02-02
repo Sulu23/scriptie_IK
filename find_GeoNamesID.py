@@ -235,8 +235,7 @@ def main():
 
     # clear cache when program is done running
     findID.cache_clear()
-    findID2.cache_clear()
-    baseline.cache_clear()
+    findID_baseline.cache_clear()
 
 if __name__ == "__main__":
     main()
